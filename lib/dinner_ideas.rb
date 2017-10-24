@@ -1,5 +1,7 @@
-require "dinner_ideas/version"
+require 'open-uri'
+require 'nokogiri'
+require 'colorize'
 
-module DinnerIdeas
-  # Your code goes here...
-end
+
+require_relative "./dinner_ideas/version"
+require_relative './dinner_ideas/cli'
